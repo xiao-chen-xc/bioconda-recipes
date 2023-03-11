@@ -1,5 +1,5 @@
 {% set name='chewBBACA' %}
-{% set version='3.0.0' %}
+{% set version='3.1.1' %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a012d803b23817ff6986c0005b347986fe6d41c5adf6dbadc1585896eaf0032a
+  sha256: 9b0e1bae8fc2f5fa026e2358c67b1a2788f6bd0e14db5a985f38fd2bd1c16f8a
 
 build:
   number: 0

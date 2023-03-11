@@ -1,6 +1,6 @@
 
-{% set version = "0.4.2" %}
-{% set sha256 = "8b47ec20522683adfb83c236c462ecc879c749923969f8aa25e1b711d4be0f1c" %}
+{% set version = "0.6.4" %}
+{% set sha256 = "c5c7ce4fe84af12cf0cc09b7a081501d8de4696fe57662272f36f7c31f53cfc1" %}
 
 package:
   name: gw
@@ -19,7 +19,7 @@ requirements:
   build:
     - make
     - {{ compiler('cxx') }}
-    - {{ cdt('xorg-x11-proto-devel') }}           # [linux]
+    - {{ cdt('xorg-x11-proto-devel') }}          # [linux]
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - {{ cdt('mesa-dri-drivers') }}  # [linux]
     - {{ cdt('libselinux') }}        # [linux]
